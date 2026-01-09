@@ -12,3 +12,4 @@ jax[cuda12]==0.4.28
 flax
 
 -r requirements-common.txt
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
