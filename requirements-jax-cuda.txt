@@ -12,3 +12,4 @@ jax[cuda12]==0.4.28
 flax
 
 -r requirements-common.txt
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
